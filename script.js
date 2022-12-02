@@ -119,7 +119,7 @@ submitBtn.addEventListener('click', () => {
         let mt4=myJson[search].mt4;
         let mt5=myJson[search].mt5;
 
-           main.innerHTML = 
+        main.innerHTML = 
 `
     <div class="quiz-container" id="quiz">
 
@@ -129,33 +129,43 @@ submitBtn.addEventListener('click', () => {
             <div class="carousel-inner">
            
                 <div class="carousel-item active" style="background-color:#ffffff";>
-                    <h2>Suggestion 1</h2>
                     <h2>${mt1}</h2>
-                    <br>
+                    <div style="width: 100%; text-align: center;">
+                    <a href="https://www.google.com/search?q=${mt1}" target="_blank" style="color: red">Watch Now!</a>
+                    </div>
                 </div>
                 <div class="carousel-item" style="background-color:#ffffff">
-                    <h2>Suggestion 2</h2>
                     <h2>${mt2}</h2>
+                    <div style="width: 100%; text-align: center;">
+                    <a href="https://www.google.com/search?q=${mt2}" target="_blank" style="color: red">Watch Now!</a>
+                    </div>
                     <br>
                 </div>
                 <div class="carousel-item" style="background-color:#ffffff">
-                    <h2>Suggestion 3</h2>
                     <h2>${mt3}</h2>
+                    <div style="width: 100%; text-align: center;">
+                    <a href="https://www.google.com/search?q=${mt3}" target="_blank" style="color: red">Watch Now!</a>
+                    </div>
                     <br>
                 </div>
                 <div class="carousel-item" style="background-color:#ffffff">
-                    <h2>Suggestion 4</h2>
                     <h2>${mt4}</h2>
+                    <div style="width: 100%; text-align: center;">
+                    <a href="https://www.google.com/search?q=${mt4}" target="_blank" style="color: red">Watch Now!</a>
+                    </div>
                     <br>
                 </div>
                 <div class="carousel-item" style="background-color:#ffffff">
-                    <h2>Suggestion 5</h2>
                     <h2>${mt5}</h2>
+                    <div style="width: 100%; text-align: center;">
+                    <a href="https://www.google.com/search?q=${mt5}" target="_blank" style="color: red">Watch Now!</a>
+                    </div>
                     <br>
                 </div>
 
             </div>
         </div>
+        <br>
         <div style="width: 100%; text-align: center;">
             <a href="#carouselExampleControls" role="button" data-slide="next" data-interval="false" style="text-decoration: underline;">
             I have already watched this, Next recommendation
@@ -163,8 +173,7 @@ submitBtn.addEventListener('click', () => {
         <div>
         <br>
         <button onclick="location.reload()">Start Over?</button>
-    </div>   
-           
+    </div>    
 `
        }
     }
