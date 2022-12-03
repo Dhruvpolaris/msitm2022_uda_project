@@ -2,7 +2,7 @@ import myJson from './data.json' assert {type: 'json'};
 
 const quizData = [
     {
-        question: "Which movie Genre would you like to watch today?",
+        question: "Which Genre would you like to watch today?",
         a: "Action/Crime",
         b: "Romance/Drama",
         c: "Comedy",
@@ -26,7 +26,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "How old would you like the movie to be?",
+        question: "How old would you like the movie/tv show to be?",
         a: "Before 1980 (Gen X)",
         b: "1980-1996 (Millenial)",
         c: "1996-2010 (Gen Z)",
@@ -114,7 +114,7 @@ submitBtn.addEventListener('click', () => {
 `
     <div class="quiz-container" id="quiz">
 
-           <h1 style="color: teal;"> Movie Recommendations</h1>
+           <h1 style="color: teal;">Our Recommendation</h1>
 
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
