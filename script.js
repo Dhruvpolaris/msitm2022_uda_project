@@ -19,7 +19,7 @@ const quizData = [
     },
     {
         question: "Choose a category that interests you.",
-        a: "Based on a True Story",
+        a: "Based on a Biography",
         b: "Based on a Book/Novel",
         c: "Based on a True Event",
         d: "No preference",
