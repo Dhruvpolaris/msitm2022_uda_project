@@ -121,37 +121,53 @@ submitBtn.addEventListener('click', () => {
            
                 <div class="carousel-item active" style="background-color:#ffffff";>
                     <h2>${mt1}</h2>
-                    <div style="width: 100%; text-align: center;">
-                    <a href="https://www.google.com/search?q=${mt1}" target="_blank" style="color: red">Watch Now!</a>
+                    
+                    <div style="text-align: center;width: 100%; padding:1rem;">
+                        <a href="https://www.google.com/search?q=${mt1}" target="_blank" style="color: red;">
+                            <button type="button" class="btn btn-outline-danger" style="width:25%;">Watch Now!</button>
+                        </a>
                     </div>
+
                 </div>
                 <div class="carousel-item" style="background-color:#ffffff">
                     <h2>${mt2}</h2>
-                    <div style="width: 100%; text-align: center;">
-                    <a href="https://www.google.com/search?q=${mt2}" target="_blank" style="color: red">Watch Now!</a>
+
+                    <div style="text-align: center;width: 100%; padding:1rem;">
+                        <a href="https://www.google.com/search?q=${mt2}" target="_blank" style="color: red;">
+                            <button type="button" class="btn btn-outline-danger" style="width:25%;">Watch Now!</button>
+                        </a>
                     </div>
-                    <br>
+
                 </div>
                 <div class="carousel-item" style="background-color:#ffffff">
                     <h2>${mt3}</h2>
-                    <div style="width: 100%; text-align: center;">
-                    <a href="https://www.google.com/search?q=${mt3}" target="_blank" style="color: red">Watch Now!</a>
+
+                    <div style="text-align: center;width: 100%; padding:1rem;">
+                        <a href="https://www.google.com/search?q=${mt3}" target="_blank" style="color: red;">
+                            <button type="button" class="btn btn-outline-danger" style="width:25%;">Watch Now!</button>
+                        </a>
                     </div>
-                    <br>
+
                 </div>
                 <div class="carousel-item" style="background-color:#ffffff">
                     <h2>${mt4}</h2>
-                    <div style="width: 100%; text-align: center;">
-                    <a href="https://www.google.com/search?q=${mt4}" target="_blank" style="color: red">Watch Now!</a>
-                    </div>
-                    <br>
+
+                    <div style="text-align: center;width: 100%; padding:1rem;">
+                        <a href="https://www.google.com/search?q=${mt4}" target="_blank" style="color: red;">
+                            <button type="button" class="btn btn-outline-danger" style="width:25%;">Watch Now!</button>
+                        </a>
+                     </div>
+
                 </div>
                 <div class="carousel-item" style="background-color:#ffffff">
                     <h2>${mt5}</h2>
-                    <div style="width: 100%; text-align: center;">
-                    <a href="https://www.google.com/search?q=${mt5}" target="_blank" style="color: red">Watch Now!</a>
+
+                    <div style="text-align: center;width: 100%; padding:1rem;">
+                        <a href="https://www.google.com/search?q=${mt5}" target="_blank" style="color: red;">
+                            <button type="button" class="btn btn-outline-danger" style="width:25%;">Watch Now!</button>
+                        </a>
                     </div>
-                    <br>
+
                 </div>
 
             </div>
