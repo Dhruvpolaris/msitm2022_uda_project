@@ -42,4 +42,13 @@ Design a user review driven movie recommendation system.
 - Based on the 30 topics identified using topic modeling, 7 genres i.e action, comedy, drama, romantic, crime, sci-fi and  thriller are the most common among the 15 mentioned in imdb.
 - Lift values of (action, crime),(sci-fi, thriller) and (comedy, drama) are high so they are associated together in the prompts to the user.
 
+## Team Members
+
+- Ishaan Buch
+- Ananta Annadatha
+- Dhruva Phulsundar
+- Varun Reddy Ponapu Reddy
+- Vipul Sahni
+- Ramanjeet Saini
+
 #### Website Background Credits: netflix.com
